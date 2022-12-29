@@ -10,9 +10,9 @@ s = float(input("What is your Speaking score?: "))
 w = float(input("What is your Writing score?: "))
 overall = (li + r + s + w) / 4
 print(round(overall))
-if   overall =< 4:
+if   1<overall < 4:
     print("You are B1")
-elif  >=4.5 overall <= 6:
+elif 4.5 >= overall <= 6:
     print("You are B2")   
 else:
     print("You are geniuos")        
