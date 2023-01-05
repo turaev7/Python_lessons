@@ -40,4 +40,24 @@
 #     elif given_number == "10":
 #         print("X")
 #     else:
-#         print("YOU INTERED AN INVALID OPTION!!!")                                       
+#         print("YOU INTERED AN INVALID OPTION!!!")  
+
+# 1
+# number = int(input("Please enter any number: "))
+# sum = 0
+# for b in range(0, number + 1):
+#     sum+=b
+# print(sum)
+
+# 2
+# a = input("Uchburchakning birinchi tomonini kiriting: ")
+# b = input("Uchburchakning ikkinchi tomonini kiritng: ")
+# c = input("Uchburchakning uchinchi tomonini kiriting: ")
+# if a + b > c or a + c > b and b + c > a:
+#     print("You are good to go")
+# else:
+#     print("You cannot make an triangle!!!")          
+
+# 4
+for i in range(11):
+    print(str(i)*i)
