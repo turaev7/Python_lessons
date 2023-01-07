@@ -13,6 +13,6 @@ print(round(overall))
 if   1<overall < 4:
     print("You are B1")
 elif 4.5 >= overall <= 6:
-    print("You are B2")   
+    print("You are B2")  
 else:
     print("You are geniuos")        

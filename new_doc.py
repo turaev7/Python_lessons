@@ -19,4 +19,4 @@ elif third > first > second:
 elif third > second > first:
     print(f"sonlarning kattasi {third} \n kichigi {first}")  
     print("o'rta arifmetigi: ", float(first + second + third), "/3")     
-
+ 

@@ -60,4 +60,4 @@
 
 # 4
 for i in range(11):
-    print(str(i)*i)
+    print(str(i)*i) 

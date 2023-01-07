@@ -9,6 +9,6 @@
 def yosh_hisobla(tugilgan_yil, joriy_yil=2023): # joriy yil uchun st.qiymat 2020
    
     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
-yosh_hisobla(2004)    
+yosh_hisobla(2004)     
 
 

@@ -23,4 +23,4 @@
 # numbers = int(input(Please enter a number: ))
 # for devisor in range(2, numbers):
 #     if numbers % devisor == 0:
-#         print(f"{numbers} is not prime")
+#         print(f"{numbers} is not prime") 

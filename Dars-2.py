@@ -13,4 +13,4 @@
 
 # uyga vazifa
 # age = int(input("Please enter your age: "))
-# print("You were born in", 2022 - age)
+# print("You were born in", 2022 - age) 
