@@ -8,3 +8,7 @@
 #     return math.prod(sonlar)
 # print(kopaytma(2,3,4,3))
 
+def aksessuarlar(**data):
+    return data
+
+print(aksessuarlar(Model = "Iphone_14", Yil = 2022, Kompaniya = "Apple ", Manzi = "California USA ", Narxi = "$1300 ", Kamera_soni = " 3 ta ", Ekran_dyumi = "100 mpx"))

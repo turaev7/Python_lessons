@@ -59,5 +59,23 @@
 #     print("You cannot make an triangle!!!")          
 
 # 4
-for i in range(11):
-    print(str(i)*i) 
+# for i in range(11):
+#     print(str(i)*i) 
+
+
+# number1 = input("Please enter your first number: ")
+# number2 = input("Please enter your second number: ")
+# while True:
+#     if number1 == number2:
+
+#        print("These two numbers are equal !!!")
+#        break
+#     else:
+#             print("These numbers are not equal !!! :)")
+
+# a = input("Please enter a number: ")
+# a = int("".join(reversed(str(a))))
+# print(a)
+
+hi = input("enter a number : ")
+print("".join(reversed(str(hi))))
