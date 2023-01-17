@@ -83,7 +83,9 @@
 
 
 #Bankdan qarz
-def qarz(pul):
-    print(pul)
-pul = input("Qarz summasini kiriting: ")
-foiz = input("Foiz qiymati: ")
+
+pul = int(input("Qarz summasini kiriting: "))
+foiz = int(input("Foiz qiymati: "))
+grafik = (pul + (pul*foiz)/100)/12
+for i in range(12):
+    print("{0}-oy = {1}".format(i+1,grafik))
