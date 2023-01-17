@@ -77,37 +77,37 @@
 
 #masala_1
 
-# class Ishchilar:
-#     num_ishchilar = 0
-#     def __init__(self, ishchi_fio, oylik, stavka, lavozim):
-#         self.fio = ishchi_fio
-#         self.oylik = oylik
-#         self.stavka = stavka
-#         self.lavozim = lavozim
-#         Ishchilar.num_ishchilar += 1
+class Ishchilar:
+    num_ishchilar = 0
+    def __init__(self, ishchi_fio, oylik, stavka, lavozim):
+        self.fio = ishchi_fio
+        self.oylik = oylik
+        self.stavka = stavka
+        self.lavozim = lavozim
+        Ishchilar.num_ishchilar += 1
     
-#     def __repr__(self):
-#         return f"{self.fio}, {self.stavka} stavka ish bilan {self.lavozim} lavozimida ishlaydi va maoshi ${self.oylik}"
+    def __repr__(self):
+        return f"{self.fio}, {self.stavka} stavka ish bilan {self.lavozim} lavozimida ishlaydi va maoshi ${self.oylik}"
 
-#     @classmethod
-#     def get_num_ishchilar(cls):
-#         return cls.num_ishchilar
+    @classmethod
+    def get_num_ishchilar(cls):
+        return cls.num_ishchilar
 
-# ishchi1 = Ishchilar("Sardor Umirzoqov", 4000, 1, "Rahbar")
-# print(ishchi1)
-# print(Ishchilar.get_num_ishchilar())
+ishchi1 = Ishchilar("Sardor Umirzoqov", 4000, 1, "Rahbar")
+print(ishchi1)
+print(Ishchilar.get_num_ishchilar())
 
 #masala_2
 # Qiymat deb nomlangan class yaratilsin va unga 3ta dunder metodi (ya'ni - init , str , add) funksiya metodlari orqali ishlatilsin, shunday algoritm tuzilsinki, a1 = Qiymat(1,10) a2 = Qiymat(5,10) Natija esa a1 va a2 elementlarini yig'indisini topsin. Masalan javob: Qiymat(6,20) qaytsin
-class Qiymat:
-    def __init__(self, a1, a2):
-        self.a = a1
-        self.b = a2
+# class Qiymat:
+#     def __init__(self, a1, a2):
+#         self.a = a1
+#         self.b = a2
         
-    def __str__(self):
-        return self.a, self.b
+#     def __str__(self):
+#         return self.a, self.b
 
-    def __add__(self):
-        print(f"{self.a[0]} + {self.b[0]}")
+#     def __add__(self):
+#         print(f"{self.a[0]} + {self.b[0]}")
 
-Qiymat((5, 10), (1, 10))
+# Qiymat((5, 10), (1, 10))
